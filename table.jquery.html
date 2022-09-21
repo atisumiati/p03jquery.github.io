@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HTML table CSS</title>
+    <style>
+        h1{
+            background-image: linear-gradient(to right,yellow,black);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h4{
+            background-image: linear-gradient(to right,black,yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        th:hover{
+            color: black;
+            background: yellow;
+            cursor: pointer;
+            transition: 0.3s;
+            opacity: 75%;
+        }
+        tr:hover{
+            color: black;
+            background: yellow;
+            cursor: pointer;
+            transition: 3.0s;
+            opacity: 75%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>HTML table Jquery</h1>
+    </center>
+    <center>
+        <h4>My Best 5 Friends</h4>
+        <table class="table1">
+                <th>No</th>
+                <th>Nama Lengkap</th>
+                <th>Alamat</th>
+                <th colspan="2">Aksi</th>
+            </thead>
+            
+            <tr>
+                <td align="center">1</td>
+                <td>Ayu Ningrat</td>
+                <td>Ciamis</td>
+                <td class="ngubah">Edit</td>
+                <td class="ngapus">Hapus</a></td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td>Resda Dayanti</td>
+                <td>Garut</td>
+                <td class="ngubah">Edit</td>
+                <td class="ngapus">Hapus</a></td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td>Novi Amaliah</td>
+                <td>Cirebon</td>
+                <td class="ngubah">Edit</td>
+                <td class="ngapus">Hapus</a></td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td>Iip Imron D</td>
+                <td>Ciamis</td>
+                <td class="ngubah">Edit</td>
+                <td class="ngapus">Hapus</a></td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td>Zahra Jannah</td>
+                <td>Kuningan</td>
+                <td class="ngubah">Edit</td>
+                <td class="ngapus">Hapus</a></td>
+        </table><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+    </center>
+
+</head>
+<body>
+    
+</body>
+</html>
